@@ -11,9 +11,16 @@
     <link rel="stylesheet" href="./src/style.css" />
   </head>
   <body>
-    <main class="stage">
-      <h1>桌宠</h1>
-      <p class="hint">工程骨架已就绪。角色渲染与桌面窗口能力将在后续 Issue 中接入。</p>
+    <main class="card">
+      <header class="card__header">
+        <span class="indicator" aria-hidden="true"></span>
+        <h1>桌宠</h1>
+      </header>
+      <p class="hint">卡片以外的区域应当完全透明，可以直接看到桌面内容。</p>
+      <div class="actions">
+        <button id="toggle-top" type="button">关闭置顶</button>
+        <button id="quit" type="button" class="ghost">退出</button>
+      </div>
       <p class="meta" id="runtime"></p>
     </main>
     <script type="module" src="./src/main.ts"></script>

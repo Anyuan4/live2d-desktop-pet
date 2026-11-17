@@ -5,6 +5,10 @@ declare global {
         electron: string
         chrome: string
       }
+      window: {
+        setAlwaysOnTop: (value: boolean) => Promise<boolean>
+        quit: () => Promise<void>
+      }
     }
   }
 }
