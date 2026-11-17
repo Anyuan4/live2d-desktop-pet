@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' ws:"
+    />
+    <title>桌宠</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <main class="stage">
+      <h1>桌宠</h1>
+      <p class="hint">工程骨架已就绪。角色渲染与桌面窗口能力将在后续 Issue 中接入。</p>
+      <p class="meta" id="runtime"></p>
+    </main>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>
