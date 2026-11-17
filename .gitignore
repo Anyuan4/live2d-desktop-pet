@@ -1,0 +1,25 @@
+node_modules/
+out/
+dist/
+release/
+
+*.log
+logs/
+
+.DS_Store
+Thumbs.db
+
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Live2D model assets and user data must never be committed.
+# See issue #7 for the licensing policy.
+models/
+public/models/
+*.model3.json
+*.moc3
+user-data/
+
+.env
+.env.local
